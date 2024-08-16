@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+::selection {
+    color: #464C2B;
+    background: #62701E;
+  }
+
+
+.backdrop{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(/assets/img/BgDefault.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login_frame{
+    width: 80%;
+    height: 70%;
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    background-color: #00000099;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.login_content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.taskbar_time{
+    background-color: #00000099;
+    backdrop-filter: blur(20px);
+    border-radius: 100px 0 0 100px;
+    color: white;
+    padding: 20px;
+}
+
+.taskbar_date{
+    background-color: #00000099;
+    backdrop-filter: blur(20px);
+    border-radius: 0px 100px 100px 0px;
+    color: white;
+    padding: 20px;
+}
+
+.timedatecont{
+    display: flex;
+    margin-top: 10px;
+}
+
+.oliveoswelcome{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
