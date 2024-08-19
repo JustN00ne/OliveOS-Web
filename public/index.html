@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth-compat.js"></script>
+    <title>OliveOS Welcome screen</title>
+    <link rel="shortcut icon" href="/assets/img/OliveWhite.svg" type="image/x-icon">
+    <link rel="icon" href="/assets/img/OliveWhite.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css" integrity="sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="backdrop"></div>
+
+
+    <div class="login_content">
+    <div class="login_frame" id="login_frame">
+
+
+        <h1 class="oliveoswelcome">Welcome to OliveOS</h1>
+
+
+        <input type="text" id="capslock" class="input" placeholder="Username">
+        <input type="password" name="" id="password" class="input" placeholder="Password">
+        <p id="CapsLockWarn" class="CapsLock">CAPS LOCK</p>
+        <script src="/assets/js/capslockdetect.js"></script>
+
+        <button class="loginusingrotur" type="submit" ><a href="/homescreen.html">Log in using OliveOS</a></button>
+        <a class="noroturacc" href="/register.html">Register a new OliveOS account</a>
+
+        <a class="moreoptions" id="moreoptions">More options</a>
+
+    </div>
+        <script src="/assets/js/opensignupmenu.js"></script>
+    </div> 
+
+
+    <div class="timedatecont">
+    <p class="taskbar_time" id="taskbar_time">12:34:56</p>
+    <p class="taskbar_date" id="taskbar_date">16.08.2024</p>
+    <script src="/assets/js/time.js"></script>
+    <script src="/assets/js/date.js"></script>
+</div>
+
+
+</div>
+</body>
+</html>
