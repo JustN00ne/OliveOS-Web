@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
     closeIconFrame.className = "taskbar_close_icon"
     closeIconFrame.innerHTML = "";
 
-
     // Append the close icon frame to the taskbar div
     taskbarDiv.appendChild(closeIconFrame);
 
