@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
---background-vid-opacity : 1.0;
-
+--background-vid-opacity : 0.0;
+--background-img-url : "/assets/img/BgDefault.jpeg";
 }
 
 *{
@@ -58,7 +58,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background-image: url(/assets/img/BgDefault.png);
+    background-image: url(/assets/img/BgDefault.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

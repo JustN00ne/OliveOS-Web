@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var taskbarIconFrame = document.getElementById("taskbar_main_icon_frame");
     var taskbarDiv = document.getElementById("taskbar_main_div");
-    var appdiv = document.getElementById("taskbar_apps_frame")
 
     // Create the close icon frame element
     var closeIconFrame = document.createElement("div");
@@ -20,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 taskbarIconFrame.style.pointerEvents = "all"
                 closeIconFrame.style.display = "none"; // Hide the close icon
                 taskbarDiv.style.backdropFilter = "blur(20px)"
-                appdiv.style.display = "grid"
             } else {
                 taskbarIconFrame.style.opacity = "0"
                 taskbarDiv.style.width = "100%";
@@ -28,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 taskbarIconFrame.style.pointerEvents = "none"
                 closeIconFrame.style.display = "block"; // Show the close icon
                 taskbarDiv.style.backdropFilter = "blur(150px)"
-                appdiv.style.display = "none"
             }
         });
 
@@ -38,7 +35,6 @@ document.addEventListener("DOMContentLoaded", function() {
             taskbarIconFrame.style.pointerEvents = "all"
             closeIconFrame.style.display = "none"; // Hide the close icon
             taskbarDiv.style.backdropFilter = "blur(20px)"
-            appdiv.style.display = "grid"
         });
     }
 });
